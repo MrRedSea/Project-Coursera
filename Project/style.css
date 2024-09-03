@@ -1,0 +1,173 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}
+
+nav {
+    background-color: #333333;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding-inline-start: 0rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+nav ul a {
+    color: #EDEFEE;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 60px;
+}
+
+nav ul a:active {
+    text-decoration: underline;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+section {
+    display: flex;
+    gap: 2px 2px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    flex: 1;
+    border-radius: 1rem;
+}
+
+article img {
+    max-width: 100%;
+}
+
+article ul {
+    list-style: none;
+}
+
+/**main article {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}**/
+
+.promo {
+    background-image: url("../Project/images/5043.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    text-align: justify;
+    filter: brightness(85%);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition-duration: 0.8s;
+}
+
+.promo p, h1 {
+    color: white;
+    text-align: justify;
+    padding-right: 200px;
+    padding-left: 50px;
+}
+
+.promo:hover {
+    transform: scale(1.05,1.05);
+}
+
+.banner {
+    background-color: #fbdabb79;
+    border-radius: 18px;
+    padding: 30px;
+    display: inline-block;
+    height: 500px;
+    margin: 5px;
+}
+
+.banner img {
+    width: 100%;
+    height: 200px;
+    display: block;
+	border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.banner img:hover {
+    transform: scale(1.1,1.1);
+}
+
+hr {
+    text-align:left;
+    height: 2px;
+    width: 100%;
+    border-width:0;
+    margin-left: 0;
+    color:darkslategrey;
+    background-color:darkslategrey;
+}
+
+footer {
+    margin: 1rem;
+    display: flex;
+    gap: 2rem 1rem;
+}
+
+footer div {
+    flex: 1;
+    padding: 20px;
+}
+
+footer div img {
+    height: 100px;
+}
+.footer2 {
+    text-align: right;
+}
+/*footer p {
+    border-top: #333333;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    text-align: right;
+}*/
+
+
